@@ -4,11 +4,9 @@
 
 const express = require('express');
 const app = express();
-const fruits = require('./models/fruits');
-const veggies = require('./models/veggies');
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Fruit = require('./models/Fruit');
+const Flight = require('./models/Flight.js');
 
 // -------------------------
 // Mongoose Connection Stuff
