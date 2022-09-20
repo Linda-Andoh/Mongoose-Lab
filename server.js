@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Flight = require('./models/Flight.js');
+const Flight = require('./models/Flight');
 
 // -------------------------
 // Mongoose Connection Stuff

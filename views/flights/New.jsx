@@ -8,7 +8,7 @@ const New = (props) => {
 
       <form action="/flights" method="POST">
         <label>Airline:</label>
-        <input type="text" name="name" /><br/>
+        <input type="text" name="airline" /><br/>
         <label>flightNo:</label>
         <input type="text" number="number" /><br/>
         <label>Departs:</label>
